@@ -25,7 +25,7 @@ This project is a public API developed using Flask that provides basic informati
    ```bash
    git clone https://github.com/NjengaC/hnginternship.git
    cd hnginternship
-```
+   ```
 
 2. **Set Up Virtual Environment**:
 
@@ -57,7 +57,7 @@ https://theactive.herokuapp.com/
 ```
 ## API Documentation
 ### Endpoint
-- URL: https://your-app-name.herokuapp.com/
+- URL: https://theactive.herokuapp.com/
 - Method: GET
 ### Request
 - Headers: None required.
@@ -67,27 +67,28 @@ https://theactive.herokuapp.com/
 - Body:
 ```json
 {
-  "email": "your-email@example.com",
+  "email": "victorcyrus01@gmail.com",
   "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/yourusername/hng12_public_api"
+  "github_url": "https://github.com/NjengaC/hnginternship"
 }
 ```
 
 ### Example Usage
 ```bash
-curl https://your-app-name.herokuapp.com/
+curl https://theactive.herokuapp.com/
 ```
 ### Response:
 
 ```json
 {
-  "email": "your-email@example.com",
+  "email": "victorcyrus01@gmail.com",
   "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/yourusername/hng12_public_api"
+  "github_url": "https://github.com/NjengaC/hnginternship"
 }
 ```
 ## Backlinks
-Hire Python Developers
+[Hire Python Developers](https://hng.tech/hire/python-developers)
+
 
 ## License
 This project is licensed under the MIT License
