@@ -43,7 +43,7 @@ def classify_number():
     num_str = request.args.get('number')
     if num_str is None:
         # If no number parameter is provided, return a 400 with an error message.
-        return jsonify({"error": True, "message": "Missing 'number' parameter"}), 400
+        return jsonify({"error": True, "number": ""}), 400
 
     try:
         number = int(num_str)
